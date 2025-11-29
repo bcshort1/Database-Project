@@ -1,0 +1,45 @@
+.site-header{
+    margin-bottom: 1 rem;
+    background: #050b11;
+}
+
+.top-bar{
+    padding: 0.5 rem 5 vw;
+    border-bottom: 1 px solid rgba(173, 216, 230, 0.2);
+    background: #050b11;
+}
+
+.brand-link{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7 rem;
+    text-decoration: none;
+    color: #f5f9fc;
+}
+
+.brand-logo{
+    width: 72 px;
+    height: 72 px;
+    border-radius: 50%;
+    display: block;
+}
+
+.brand-text{
+    display: flex;
+    flex-direction:column;
+}
+
+.brand-title{
+    font-weight: 700;
+    font-size: 1.15 rem;
+    letter-spacing: 0.03 rem;
+}
+
+.brand-tagline{
+    font-size: 0.85 rem;
+    color: #b8d4ea;
+}
+
+.lighthouse{
+    border-radius: 0 0 20 px 20 px;
+}
