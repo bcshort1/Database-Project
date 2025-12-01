@@ -1,7 +1,5 @@
 USE `picture_database`;
 
-
-
 INSERT INTO `collections` (`collection_id`, `collection_name`, `collection_description`, `created_date_time`, `is_published`, `published_date_time`) VALUES
 (1, 'Drone Aerials', 'All aerial photos and videos shot with the DJI Air 3S.', '2025-11-28 12:00:00', 1, '2025-11-28 13:00:00'),
 (2, 'Wildlife & Critters', 'Birds, insects, deer, bear, and other wildlife around the lakes and marshes.', '2025-11-28 12:00:00', 1, '2025-11-28 13:00:00'),
