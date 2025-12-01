@@ -1,6 +1,3 @@
-
-use picture_database;
-
 // Query 1: Count media items by type and drone flag
 db.media.aggregate([
   {
