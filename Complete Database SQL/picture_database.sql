@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 01, 2025 at 02:02 AM
+-- Generation Time: Dec 01, 2025 at 08:06 PM
 -- Server version: 8.0.43
 -- PHP Version: 8.2.29
 
@@ -62,7 +62,7 @@ CREATE TABLE `collection_items` (
   `collection_id` int NOT NULL,
   `media_id` int NOT NULL,
   `position` int NOT NULL
-) ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `collection_items`
@@ -176,7 +176,7 @@ CREATE TABLE `media` (
   `file_path_display` varchar(500) COLLATE utf8mb4_general_ci NOT NULL,
   `is_drone` tinyint(1) NOT NULL DEFAULT '0',
   `upload_date_time` datetime DEFAULT CURRENT_TIMESTAMP
-) ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `media`
@@ -641,40 +641,40 @@ CREATE TABLE `photos` (
 --
 
 INSERT INTO `photos` (`photo_id`, `file_path_full_resolution_logoless`, `capture_date_time`, `location_text`, `latitude`, `longitude`, `camera_make_model`, `lens`, `filters`, `iso`, `shutter_speed`, `aperture`, `focal_length`, `aspect_ratio`) VALUES
-(2, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Bird\'s Eye View of Bohemian Lavender Farm-DJI_20250713134902_0441_D-HDR-2-photos_db_photo-13.png', '2025-07-13 13:49:02', 'Bird\'s Eye View of Bohemian Lavender Farm', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
-(3, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Bird\'s Eye View of Manistee-DJI_20250628172944_0726_D-HDR-photos_db_photo-11.png', '2025-06-28 17:29:44', 'Bird\'s Eye View of Manistee', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
-(4, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Bird\'s Eye View of the Neighborhood-DJI_20250622150721_0379_D-HDR-photos_db_photo-10.png', '2025-06-22 15:07:21', 'Bird\'s Eye View of the Neighborhood', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
+(2, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Bird\'s Eye View of Bohemian Lavender Farm-DJI_20250713134902_0441_D-HDR-2-photos_db_photo-13.png', '2025-07-13 13:49:02', 'Maple City, Michigan, United States', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
+(3, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Bird\'s Eye View of Manistee-DJI_20250628172944_0726_D-HDR-photos_db_photo-11.png', '2025-06-28 17:29:44', 'Manistee, Michigan, United States', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
+(4, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Bird\'s Eye View of the Neighborhood-DJI_20250622150721_0379_D-HDR-photos_db_photo-10.png', '2025-06-22 15:07:21', 'Beulah, Michigan, United States', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
 (5, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Blood Moon Closeup-P3140252-Enhanced-SR-photos_db_photo-1.png', '2025-03-14 02:02:31', 'Blood Moon Closeup', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 4.000, 6.30, 400.00, '5:4'),
 (6, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Blood Moon-DJI_20250908205852_0722_D-photos_db_photo-33.png', '2025-09-08 20:58:52', 'Blood Moon', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
-(9, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Bumble Bee Sampling Lavender-P7132118-photos_db_photo-12.png', '2025-07-13 12:00:00', 'Bumble Bee Sampling Lavender', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(10, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Classic Ford Mustang-P9130783-photos_db_photo-34.png', '2025-09-13 12:00:00', 'Classic Ford Mustang', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(11, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Closeup Cardinal In Winter-P3160548-photos_db_photo-2.png', '2025-03-16 11:47:54', 'Closeup Cardinal In Winter', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 2500, 0.001, 6.30, 400.00, '4:3'),
-(12, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Closeup of Herron at Arcadia Marsh 2-P8300146-photos_db_photo-25.png', '2025-08-30 12:00:00', 'Closeup of Herron at Arcadia Marsh 2', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(13, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Closeup of Herron at Arcadia Marsh-P8300141-photos_db_photo-24.png', '2025-08-30 12:00:00', 'Closeup of Herron at Arcadia Marsh', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(14, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Coleus Flowers-P6221910-photos_db_photo-5.png', '2025-06-22 12:00:00', 'Coleus Flowers', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(16, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Duck Couple in Winter-P3240589-photos_db_photo-3.png', '2025-03-24 12:00:00', 'Duck Couple in Winter', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(17, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Family of Herrons at Arcadia Marsh-P7202282-photos_db_photo-17.png', '2025-07-20 12:00:00', 'Family of Herrons at Arcadia Marsh', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(18, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Family of Swans on the Lake-P8102727-photos_db_photo-22.png', '2025-08-10 12:00:00', 'Family of Swans on the Lake', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(19, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Foggy Morning on the Lake-DJI_20250927081415_0091_D-HDR-photos_db_photo-35.png', '2025-09-27 08:14:15', 'Foggy Morning on the Lake', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
-(22, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Grand Traverse Lighthouse Foghorn Shelter-P9020255-photos_db_photo-31.png', '2025-09-02 12:00:00', 'Grand Traverse Lighthouse Foghorn Shelter', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(9, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Bumble Bee Sampling Lavender-P7132118-photos_db_photo-12.png', '2025-07-13 12:00:00', 'Maple City, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(10, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Classic Ford Mustang-P9130783-photos_db_photo-34.png', '2025-09-13 12:00:00', 'Midland, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(11, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Closeup Cardinal In Winter-P3160548-photos_db_photo-2.png', '2025-03-16 11:47:54', 'Beulah, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 2500, 0.001, 6.30, 400.00, '4:3'),
+(12, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Closeup of Herron at Arcadia Marsh 2-P8300146-photos_db_photo-25.png', '2025-08-30 12:00:00', 'Arcadia, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(13, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Closeup of Herron at Arcadia Marsh-P8300141-photos_db_photo-24.png', '2025-08-30 12:00:00', 'Arcadia, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(14, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Coleus Flowers-P6221910-photos_db_photo-5.png', '2025-06-22 12:00:00', 'Beulah, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(16, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Duck Couple in Winter-P3240589-photos_db_photo-3.png', '2025-03-24 12:00:00', 'Beulah, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(17, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Family of Herrons at Arcadia Marsh-P7202282-photos_db_photo-17.png', '2025-07-20 12:00:00', 'Arcadia, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(18, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Family of Swans on the Lake-P8102727-photos_db_photo-22.png', '2025-08-10 12:00:00', 'Beulah, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(19, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Foggy Morning on the Lake-DJI_20250927081415_0091_D-HDR-photos_db_photo-35.png', '2025-09-27 08:14:15', 'Beulah, Michigan, United States', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
+(22, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Grand Traverse Lighthouse Foghorn Shelter-P9020255-photos_db_photo-31.png', '2025-09-02 12:00:00', 'Northport, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
 (23, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Holiday Lights on Front Porch-P1021319-photos_db_photo-21.png', '2025-09-02 12:00:00', 'Holiday Lights on Front Porch', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
 (24, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\House Mirror Picture-P1021306-photos_db_photo-20.png', '2025-08-08 12:00:00', 'House Mirror Picture', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
 (25, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Lighthouse Walk-P9010229-photos_db_photo-30.png', '2025-07-29 12:00:00', 'Lighthouse Walk', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(26, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Lilly Flowers-P6221902-photos_db_photo-7.png', '2025-06-22 12:00:00', 'Lilly Flowers', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(27, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Livesaving Station in Frankfort-DJI_20250830202221_0049_D-HDR-photos_db_photo-27.png', '2025-08-30 20:22:21', 'Livesaving Station in Frankfort', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
-(28, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Monarch Butterfly on Butterfly Milkweed-P8300133-photos_db_photo-26.png', '2025-08-30 12:00:00', 'Monarch Butterfly on Butterfly Milkweed', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(30, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Moth on Butterfly Milkweed-P7202231-photos_db_photo-16.png', '2025-07-20 12:00:00', 'Moth on Butterfly Milkweed', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(32, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Picture of Rocks on Lake Bed on a Calm Day-P9010226-photos_db_photo-29.png', '2025-09-01 12:00:00', 'Picture of Rocks on Lake Bed on a Calm Day', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(35, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Point Betsie Sunny Day-DJI_20250905150029_0444_D-HDR-photos_db_photo-32.png', '2025-09-05 15:00:29', 'Point Betsie Sunny Day', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
-(37, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Pontoon Boat Ride July 27th, 2025-DJI_20250727114503_0239_D-2-photos_db_photo-19.png', '2025-07-27 11:45:03', 'Pontoon Boat Ride July 27th, 2025', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
-(39, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Roses in Bloom 2-P6221899-photos_db_photo-9.png', '2025-06-22 12:00:00', 'Roses in Bloom 2', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(40, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Roses In Bloom-P6221900-photos_db_photo-8.png', '2025-06-22 12:00:00', 'Roses In Bloom', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(41, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Sailboat in the July 20th, 2025 Sailing Race-DJI_20250720192045_0752_D-HDR-photos_db_photo-18.png', '2025-07-20 19:20:45', 'Sailboat in the July 20th, 2025 Sailing Race', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
-(42, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Sandhill Crane at Arcadia Marsh-P7202247-photos_db_photo-14.png', '2025-07-20 12:00:00', 'Sandhill Crane at Arcadia Marsh', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(43, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Turtle on a Log-P7202239-photos_db_photo-15.png', '2025-07-20 12:00:00', 'Turtle on a Log', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(44, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Two Young Bucks at the Birdfeeder-P8162784-3-photos_db_photo-23.png', '2025-08-16 12:00:00', 'Two Young Bucks at the Birdfeeder', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
-(46, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Wedding at Frankfort Life Saving Station-DJI_20250830205348_0108_D-2-photos_db_photo-28.png', '2025-08-30 20:53:48', 'Wedding at Frankfort Life Saving Station', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
-(48, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Yarrow Flowers-P6221908-photos_db_photo-6.png', '2025-06-22 12:00:00', 'Yarrow Flowers', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(26, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Lilly Flowers-P6221902-photos_db_photo-7.png', '2025-06-22 12:00:00', 'Beulah, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(27, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Livesaving Station in Frankfort-DJI_20250830202221_0049_D-HDR-photos_db_photo-27.png', '2025-08-30 20:22:21', 'Frankfort, Michigan, United States', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
+(28, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Monarch Butterfly on Butterfly Milkweed-P8300133-photos_db_photo-26.png', '2025-08-30 12:00:00', 'Arcadia, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(30, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Moth on Butterfly Milkweed-P7202231-photos_db_photo-16.png', '2025-07-20 12:00:00', 'Arcadia, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(32, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Picture of Rocks on Lake Bed on a Calm Day-P9010226-photos_db_photo-29.png', '2025-09-01 12:00:00', 'Cleveland Township, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(35, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Point Betsie Sunny Day-DJI_20250905150029_0444_D-HDR-photos_db_photo-32.png', '2025-09-05 15:00:29', 'Frankfort, Michigan, United States', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
+(37, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Pontoon Boat Ride July 27th, 2025-DJI_20250727114503_0239_D-2-photos_db_photo-19.png', '2025-07-27 11:45:03', 'Beulah, Michigan, United States', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
+(39, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Roses in Bloom 2-P6221899-photos_db_photo-9.png', '2025-06-22 12:00:00', 'Beulah, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(40, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Roses In Bloom-P6221900-photos_db_photo-8.png', '2025-06-22 12:00:00', 'Beulah, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(41, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Sailboat in the July 20th, 2025 Sailing Race-DJI_20250720192045_0752_D-HDR-photos_db_photo-18.png', '2025-07-20 19:20:45', 'Arcadia, Michigan, United States', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
+(42, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Sandhill Crane at Arcadia Marsh-P7202247-photos_db_photo-14.png', '2025-07-20 12:00:00', 'Arcadia, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(43, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Turtle on a Log-P7202239-photos_db_photo-15.png', '2025-07-20 12:00:00', 'Arcadia, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(44, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Two Young Bucks at the Birdfeeder-P8162784-3-photos_db_photo-23.png', '2025-08-16 12:00:00', 'Beulah, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
+(46, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Wedding at Frankfort Life Saving Station-DJI_20250830205348_0108_D-2-photos_db_photo-28.png', '2025-08-30 20:53:48', 'Frankfort, Michigan, United States', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3'),
+(48, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\Yarrow Flowers-P6221908-photos_db_photo-6.png', '2025-06-22 12:00:00', 'Beulah, Michigan, United States', NULL, NULL, 'OM Digital Solutions OM-5', NULL, NULL, 200, 0.001, 6.30, 400.00, '4:3'),
 (49, 'C:\\Program Files\\Ampps\\Photos Full Resolution Logoless\\-DJI_20250619213832_0258_D-photos_db_photo-4.png', '2025-06-19 21:38:32', 'Untitled DJI Photo in Frankfort', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '4:3');
 
 -- --------------------------------------------------------
@@ -758,7 +758,7 @@ CREATE TABLE `videos` (
   `aperture` decimal(4,2) DEFAULT NULL,
   `focal_length` decimal(6,2) DEFAULT NULL,
   `aspect_ratio` varchar(20) COLLATE utf8mb4_general_ci NOT NULL
-) ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `videos`
@@ -778,7 +778,7 @@ INSERT INTO `videos` (`video_id`, `file_path_full_resolution_logoless`, `capture
 (36, 'C:\\Program Files\\Ampps\\Videos Full Resolution Logoless\\Point Betsie Wavy Day-DJI_20250905145209_0417_D-photos_db_video-13.mp4', '2025-09-05 14:52:09', 31.000, 'Point Betsie Wavy Day', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '16:9'),
 (38, 'C:\\Program Files\\Ampps\\Videos Full Resolution Logoless\\Pontoon Boat Ride June 14th, 2025-DJI_20250614154400_0074_D-photos_db_video-7.mp4', '2025-06-14 15:44:00', 43.000, 'Pontoon Boat Ride June 14th, 2025', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '16:9'),
 (45, 'C:\\Program Files\\Ampps\\Videos Full Resolution Logoless\\Wavy Morning on the Elberta Side-DJI_20250905141742_0400_D-photos_db_video-12.mp4', '2025-09-05 14:17:42', 88.000, 'Wavy Morning on the Elberta Side', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '16:9'),
-(47, 'C:\\Program Files\\Ampps\\Videos Full Resolution Logoless\\Winter Sunset Timelapse in Manistee-dji_fly_20250307_183132_0052_1741396467214_hyperlapse-photos_db_video-3.mp4', '2025-03-07 18:31:32', 5.000, 'Winter Sunset Timelapse in Manistee', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '16:9');
+(47, 'C:\\Program Files\\Ampps\\Videos Full Resolution Logoless\\Winter Sunset Timelapse in Manistee-dji_fly_20250307_183132_0052_1741396467214_hyperlapse-photos_db_video-3.mp4', '2025-03-07 18:31:32', 5.000, 'Manistee, Michigan, United States', NULL, NULL, 'DJI Air 3S', NULL, NULL, 140, 0.020, 1.80, 9.00, '16:9');
 
 --
 -- Indexes for dumped tables
@@ -844,7 +844,7 @@ ALTER TABLE `collections`
 -- AUTO_INCREMENT for table `media`
 --
 ALTER TABLE `media`
-  MODIFY `media_id` int NOT NULL AUTO_INCREMENT;
+  MODIFY `media_id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
 
 --
 -- AUTO_INCREMENT for table `tags`
