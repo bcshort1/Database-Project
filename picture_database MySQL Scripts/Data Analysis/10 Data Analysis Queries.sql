@@ -25,24 +25,27 @@ SELECT
     c.collection_id,
     c.collection_name,
     COUNT(ci.media_id) AS total_items,
-    SUM(CASE WHEN m.is_drone = 1 THEN 1 ELSE 0 END) AS drone_items,
-    SUM(CASE WHEN m.media_type = 'PHOTO' THEN 1 ELSE 0 END) AS photo_items,
-    SUM(CASE WHEN m.media_type = 'VIDEO' THEN 1 ELSE 0 END) AS video_items
+    COUNT(md.media_id) AS drone_items,
+    COUNT(mp.media_id) AS photo_items,
+    COUNT(mv.media_id) AS video_items
 FROM collections c
 LEFT JOIN collection_items ci ON ci.collection_id = c.collection_id
-LEFT JOIN media m ON m.media_id = ci.media_id
+LEFT JOIN media md ON md.media_id = ci.media_id AND md.is_drone = 1
+LEFT JOIN media mp ON mp.media_id = ci.media_id AND mp.media_type = 'PHOTO'
+LEFT JOIN media mv ON mv.media_id = ci.media_id AND mv.media_type = 'VIDEO'
 GROUP BY c.collection_id, c.collection_name
 ORDER BY total_items DESC, c.collection_name;
 
 
 -- 4. Photo counts per month for year 2025
 SELECT
-    YEAR(p.capture_date_time) AS capture_year,
-    MONTH(p.capture_date_time) AS capture_month,
-    DATE_FORMAT(p.capture_date_time, '%M') AS month_name,
+        DATE_FORMAT(p.capture_date_time, '%Y') AS capture_year,
+        DATE_FORMAT(p.capture_date_time, '%m') AS capture_month,
+        DATE_FORMAT(p.capture_date_time, '%M') AS month_name,
     COUNT(*) AS photo_count
 FROM photos p
-WHERE YEAR(p.capture_date_time) = 2025
+WHERE p.capture_date_time >= '2025-01-01'
+    AND p.capture_date_time < '2026-01-01'
 GROUP BY capture_year, capture_month, month_name
 ORDER BY capture_year, capture_month;
 
@@ -117,11 +120,8 @@ SELECT
     t.tag_id,
     t.tag_name,
     COUNT(*) AS media_count,
-    SUM(CASE WHEN m.is_drone = 1 THEN 1 ELSE 0 END) AS drone_media_count,
-    ROUND(
-        100.0 * SUM(CASE WHEN m.is_drone = 1 THEN 1 ELSE 0 END) / COUNT(*),
-        2
-    ) AS drone_percentage
+    SUM(m.is_drone) AS drone_media_count,
+    ROUND(100.0 * SUM(m.is_drone) / COUNT(*), 2) AS drone_percentage
 FROM tags t
 JOIN media_tags mt ON mt.tag_id = t.tag_id
 JOIN media m ON m.media_id = mt.media_id

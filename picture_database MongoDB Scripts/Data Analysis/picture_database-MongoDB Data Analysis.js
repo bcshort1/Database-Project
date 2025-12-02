@@ -1,14 +1,23 @@
-// Query 1: Count media items by type and drone flag
+// MongoDB aggregation equivalents for the 10 MySQL data analysis queries
+use('picture_database');
+
+// Query 1: Count media items by type (PHOTO/VIDEO) and drone flag
 db.media.aggregate([
   {
     $group: {
-      _id: { media_type: "$type", is_drone: "$isDrone" },
+      _id: { media_type: "$mediaType", is_drone: "$isDrone" },
       media_count: { $sum: 1 }
     }
   },
   {
-    $sort: { "_id.media_type": 1, "_id.is_drone": 1 }
-  }
+    $project: {
+      _id: 0,
+      media_type: "$_id.media_type",
+      is_drone: "$_id.is_drone",
+      media_count: 1
+    }
+  },
+  { $sort: { media_type: 1, is_drone: 1 } }
 ]);
 
 // Query 2: Top 10 most-used tags across all media
@@ -16,34 +25,20 @@ db.media.aggregate([
   { $unwind: "$tags" },
   {
     $group: {
-      _id: "$tags",              // tag name
+      _id: { tag_id: "$tags.tagId", tag_name: "$tags.name" },
       media_count: { $sum: 1 }
-    }
-  },
-  { $sort: { media_count: -1, _id: 1 } },
-  { $limit: 10 },
-  {
-    $lookup: {
-      from: "tags",
-      localField: "_id",         // tag name
-      foreignField: "name",
-      as: "tag_doc"
-    }
-  },
-  {
-    $unwind: {
-      path: "$tag_doc",
-      preserveNullAndEmptyArrays: true
     }
   },
   {
     $project: {
       _id: 0,
-      tag_id: "$tag_doc._id",
-      tag_name: "$_id",
+      tag_id: "$_id.tag_id",
+      tag_name: "$_id.tag_name",
       media_count: 1
     }
-  }
+  },
+  { $sort: { media_count: -1, tag_name: 1 } },
+  { $limit: 10 }
 ]);
 
 // Query 3: Collection item counts (total / drone / photo / video) per collection
@@ -56,112 +51,74 @@ db.media.aggregate([
         collection_name: "$collections.name"
       },
       total_items: { $sum: 1 },
-      drone_items: {
-        $sum: {
-          $cond: [ "$isDrone", 1, 0 ]
-        }
-      },
-      photo_items: {
-        $sum: {
-          $cond: [
-            { $eq: [ "$type", "PHOTO" ] },
-            1,
-            0
-          ]
-        }
-      },
-      video_items: {
-        $sum: {
-          $cond: [
-            { $eq: [ "$type", "VIDEO" ] },
-            1,
-            0
-          ]
-        }
-      }
+      drone_items: { $sum: { $cond: [ "$isDrone", 1, 0 ] } },
+      photo_items: { $sum: { $cond: [ { $eq: [ "$mediaType", "PHOTO" ] }, 1, 0 ] } },
+      video_items: { $sum: { $cond: [ { $eq: [ "$mediaType", "VIDEO" ] }, 1, 0 ] } }
     }
   },
   {
-    $sort: {
-      total_items: -1,
-      "_id.collection_name": 1
+    $project: {
+      _id: 0,
+      collection_id: "$_id.collection_id",
+      collection_name: "$_id.collection_name",
+      total_items: 1,
+      drone_items: 1,
+      photo_items: 1,
+      video_items: 1
     }
-  }
+  },
+  { $sort: { total_items: -1, collection_name: 1 } }
 ]);
 
 // Query 4: Photo counts per month for year 2025
 db.media.aggregate([
   {
     $match: {
-      type: "PHOTO",
-      captureDateTime: { $ne: null }
+      mediaType: "PHOTO",
+      "capture.dateTime": { $type: "date" }
     }
   },
   {
-    $addFields: {
-      captureDate: {
-        $dateFromString: {
-          dateString: "$captureDateTime",
-          format: "%Y-%m-%d %H:%M:%S"
+    $set: {
+      capture_year: { $year: { date: "$capture.dateTime", timezone: "UTC" } },
+      capture_month: { $month: { date: "$capture.dateTime", timezone: "UTC" } },
+      month_name: {
+        $dateToString: {
+          format: "%M",
+          date: "$capture.dateTime",
+          timezone: "UTC"
         }
       }
     }
   },
-  {
-    $match: {
-      captureDate: {
-        $gte: ISODate("2025-01-01T00:00:00Z"),
-        $lt: ISODate("2026-01-01T00:00:00Z")
-      }
-    }
-  },
+  { $match: { capture_year: 2025 } },
   {
     $group: {
       _id: {
-        capture_year: { $year: "$captureDate" },
-        capture_month: { $month: "$captureDate" }
+        capture_year: "$capture_year",
+        capture_month: "$capture_month",
+        month_name: "$month_name"
       },
       photo_count: { $sum: 1 }
     }
   },
   {
-    $addFields: {
-      capture_year: "$_id.capture_year",
-      capture_month: "$_id.capture_month",
-      month_name: {
-        $arrayElemAt: [
-          [
-            null,
-            "January", "February", "March", "April", "May", "June",
-            "July", "August", "September", "October", "November", "December"
-          ],
-          "$_id.capture_month"
-        ]
-      }
-    }
-  },
-  {
     $project: {
       _id: 0,
-      capture_year: 1,
-      capture_month: 1,
-      month_name: 1,
+      capture_year: "$_id.capture_year",
+      capture_month: "$_id.capture_month",
+      month_name: "$_id.month_name",
       photo_count: 1
     }
   },
-  {
-    $sort: {
-      capture_year: 1,
-      capture_month: 1
-    }
-  }
+  { $sort: { capture_year: 1, capture_month: 1 } }
 ]);
 
 // Query 5: Average ISO and shutter speed per camera, split by drone vs non-drone photos
 db.media.aggregate([
   {
     $match: {
-      type: "PHOTO",
+      mediaType: "PHOTO",
       "camera.makeModel": { $ne: null }
     }
   },
@@ -177,53 +134,64 @@ db.media.aggregate([
     }
   },
   {
-    $sort: {
-      "_id.camera_make_model": 1,
-      "_id.is_drone": 1
+    $project: {
+      _id: 0,
+      camera_make_model: "$_id.camera_make_model",
+      is_drone: "$_id.is_drone",
+      photo_count: 1,
+      avg_iso: 1,
+      avg_shutter_speed: 1
     }
-  }
+  },
+  { $sort: { camera_make_model: 1, is_drone: 1 } }
 ]);
 
 // Query 6: Total and average video duration per video location
 db.media.aggregate([
   {
     $match: {
-      type: "VIDEO",
-      durationSeconds: { $ne: null }
+      mediaType: "VIDEO",
+      "capture.durationSeconds": { $ne: null }
     }
   },
   {
     $group: {
-      _id: "$location.text",
+      _id: { $ifNull: [ "$location.text", "Unknown" ] },
       video_count: { $sum: 1 },
-      total_duration_seconds: { $sum: "$durationSeconds" },
-      avg_duration_seconds: { $avg: "$durationSeconds" }
+      total_duration_seconds: { $sum: "$capture.durationSeconds" },
+      avg_duration_seconds: { $avg: "$capture.durationSeconds" }
     }
   },
   {
-    $sort: {
-      total_duration_seconds: -1
+    $project: {
+      _id: 0,
+      location_text: "$_id",
+      video_count: 1,
+      total_duration_seconds: 1,
+      avg_duration_seconds: 1
     }
-  }
+  },
+  { $sort: { total_duration_seconds: -1 } }
 ]);
 
 // Query 7: Count media items tagged with BOTH "Drone" and "Water"
 db.media.aggregate([
   {
     $match: {
-      tags: { $all: [ "Drone", "Water" ] }
+      $and: [
+        { tags: { $elemMatch: { name: "Drone" } } },
+        { tags: { $elemMatch: { name: "Water" } } }
+      ]
     }
   },
-  {
-    $count: "media_with_drone_and_water"
-  }
+  { $count: "media_with_drone_and_water" }
 ]);
 
 // Query 8: Photo counts per location, split by drone vs non-drone
 db.media.aggregate([
   {
     $match: {
-      type: "PHOTO",
+      mediaType: "PHOTO",
       "location.text": { $ne: null }
     }
   },
@@ -237,39 +205,34 @@ db.media.aggregate([
     }
   },
   {
-    $sort: {
-      photo_count: -1,
-      "_id.location_text": 1
+    $project: {
+      _id: 0,
+      location_text: "$_id.location_text",
+      is_drone: "$_id.is_drone",
+      photo_count: 1
     }
-  }
+  },
+  { $sort: { photo_count: -1, location_text: 1 } }
 ]);
 
 // Query 9: For collections that include videos, total and average video duration per collection
-db.collections.aggregate([
-  { $unwind: "$items" },
-  {
-    $lookup: {
-      from: "media",
-      localField: "items.mediaId",
-      foreignField: "_id",
-      as: "media"
-    }
-  },
-  { $unwind: "$media" },
+db.media.aggregate([
   {
     $match: {
-      "media.type": "VIDEO",
-      "media.durationSeconds": { $ne: null }
+      mediaType: "VIDEO",
+      "capture.durationSeconds": { $ne: null },
+      collections: { $exists: true, $ne: [] }
     }
   },
+  { $unwind: "$collections" },
   {
     $group: {
       _id: {
-        collection_id: "$_id",
-        collection_name: "$name"
+        collection_id: "$collections.collectionId",
+        collection_name: "$collections.name"
       },
       video_count: { $sum: 1 },
-      total_duration_seconds: { $sum: "$media.durationSeconds" }
+      total_duration_seconds: { $sum: "$capture.durationSeconds" }
     }
   },
   {
@@ -284,15 +247,16 @@ db.collections.aggregate([
     }
   },
   {
-    $match: {
-      video_count: { $gt: 0 }
+    $project: {
+      _id: 0,
+      collection_id: "$_id.collection_id",
+      collection_name: "$_id.collection_name",
+      video_count: 1,
+      total_duration_seconds: 1,
+      avg_duration_seconds: 1
     }
   },
-  {
-    $sort: {
-      total_duration_seconds: -1
-    }
-  }
+  { $sort: { total_duration_seconds: -1 } }
 ]);
 
 // Query 10: For each tag, percentage of tagged media that are drone media
@@ -300,13 +264,9 @@ db.media.aggregate([
   { $unwind: "$tags" },
   {
     $group: {
-      _id: "$tags",                      // tag name
+      _id: { tag_id: "$tags.tagId", tag_name: "$tags.name" },
       media_count: { $sum: 1 },
-      drone_media_count: {
-        $sum: {
-          $cond: [ "$isDrone", 1, 0 ]
-        }
-      }
+      drone_media_count: { $sum: { $cond: [ "$isDrone", 1, 0 ] } }
     }
   },
   {
@@ -331,33 +291,14 @@ db.media.aggregate([
     }
   },
   {
-    $lookup: {
-      from: "tags",
-      localField: "_id",                 // tag name
-      foreignField: "name",
-      as: "tag_doc"
-    }
-  },
-  {
-    $unwind: {
-      path: "$tag_doc",
-      preserveNullAndEmptyArrays: true
-    }
-  },
-  {
     $project: {
       _id: 0,
-      tag_id: "$tag_doc._id",
-      tag_name: "$_id",
+      tag_id: "$_id.tag_id",
+      tag_name: "$_id.tag_name",
       media_count: 1,
       drone_media_count: 1,
       drone_percentage: 1
     }
   },
-  {
-    $sort: {
-      drone_percentage: -1,
-      media_count: -1
-    }
-  }
+  { $sort: { drone_percentage: -1, media_count: -1, tag_name: 1 } }
 ]);
