@@ -1,0 +1,4536 @@
+[{
+  "_id": 1,
+  "mediaType": "VIDEO",
+  "title": "Bear at the Birdfeeder-2025-06-19-21-46-19",
+  "description": "Video of Bear at the Birdfeeder-2025-06-19-21-46-19.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T17:27:29.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Bear at the Birdfeeder-2025-06-19-21-46-19-photos_db_sized_video-1.mp4",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Videos Full Resolution Logoless\\\\Bear at the Birdfeeder-2025-06-19-21-46-19-photos_db_video-1.mp4"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-06-19T21:46:19.000Z"
+    },
+    "durationSeconds": 40
+  },
+  "location": {
+    "text": "Bear at the Birdfeeder-2025-06-19-21-46-19",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "Unknown Camera",
+    "lens": null,
+    "filters": null,
+    "iso": 800,
+    "shutterSpeed": 0.017,
+    "aperture": 2,
+    "focalLength": 26
+  },
+  "aspectRatio": "16:9",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 9,
+      "name": "Bear"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 1
+    }
+  ]
+},
+{
+  "_id": 2,
+  "mediaType": "PHOTO",
+  "title": "Bird's Eye View of Bohemian Lavender Farm",
+  "description": "Bird's Eye picture of Bohemian Lavender Farm.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Bird's Eye View of Bohemian Lavender Farm_DJI_20250713134902_0441_D-HDR-2_photos_db_sized_photo_13.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Bird's Eye View of Bohemian Lavender Farm-DJI_20250713134902_0441_D-HDR-2-photos_db_photo-13.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-07-13T13:49:02.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Maple City, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 11,
+      "name": "Flowers"
+    },
+    {
+      "tagId": 12,
+      "name": "Plants"
+    },
+    {
+      "tagId": 13,
+      "name": "Lavender"
+    },
+    {
+      "tagId": 29,
+      "name": "Maple City"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 1
+    },
+    {
+      "collectionId": 5,
+      "name": "Flowers & Gardens",
+      "description": "Lavender fields, garden flowers, and detailed closeups.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 1
+    }
+  ]
+},
+{
+  "_id": 3,
+  "mediaType": "PHOTO",
+  "title": "Bird's Eye View of Manistee",
+  "description": "Bird's Eye picture of Manistee.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Bird's Eye View of Manistee_DJI_20250628172944_0726_D-HDR_photos_db_sized_photo_11.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Bird's Eye View of Manistee-DJI_20250628172944_0726_D-HDR-photos_db_photo-11.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-06-28T17:29:44.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Manistee, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 26,
+      "name": "Manistee"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 1
+    },
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 2
+    }
+  ]
+},
+{
+  "_id": 4,
+  "mediaType": "PHOTO",
+  "title": "Bird's Eye View of the Neighborhood",
+  "description": "Bird's Eye picture of the neighborhood.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Bird's Eye View of the Neighborhood_DJI_20250622150721_0379_D-HDR_photos_db_sized_photo_10.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Bird's Eye View of the Neighborhood-DJI_20250622150721_0379_D-HDR-photos_db_photo-10.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-06-22T15:07:21.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Beulah, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 32,
+      "name": "Midland"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 3
+    }
+  ]
+},
+{
+  "_id": 5,
+  "mediaType": "PHOTO",
+  "title": "Blood Moon Closeup",
+  "description": "Closeup of the Blood Moon that occurred on March 14th, 2025.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-03-14T02:02:31.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Blood Moon Closeup_P3140252-Enhanced-SR_photos_db_sized_photo_1.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Blood Moon Closeup-P3140252-Enhanced-SR-photos_db_photo-1.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-03-14T02:02:31.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Blood Moon Closeup",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 4,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "5:4",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 21,
+      "name": "Moon"
+    },
+    {
+      "tagId": 22,
+      "name": "Night"
+    },
+    {
+      "tagId": 23,
+      "name": "Astro"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": []
+},
+{
+  "_id": 6,
+  "mediaType": "PHOTO",
+  "title": "Blood Moon",
+  "description": "Picture of the blood moon on September 8th, 2025.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Blood Moon_DJI_20250908205852_0722_D_photos_db_sized_photo_33.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Blood Moon-DJI_20250908205852_0722_D-photos_db_photo-33.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-09-08T20:58:52.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Blood Moon",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 21,
+      "name": "Moon"
+    },
+    {
+      "tagId": 22,
+      "name": "Night"
+    },
+    {
+      "tagId": 23,
+      "name": "Astro"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 4
+    }
+  ]
+},
+{
+  "_id": 7,
+  "mediaType": "VIDEO",
+  "title": "Brendan Playing with Tater at the Sandbar",
+  "description": "Video of Brendan playing with Tater at the sandbar.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T18:15:20.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Brendan Playing with Tater at the Sandbar-DJI_20250807180534_0565_D-photos_db_sized_video-10.mp4",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Videos Full Resolution Logoless\\\\Brendan Playing with Tater at the Sandbar-DJI_20250807180534_0565_D-photos_db_video-10.mp4"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-08-07T18:05:34.000Z"
+    },
+    "durationSeconds": 27
+  },
+  "location": {
+    "text": "Brendan Playing with Tater at the Sandbar",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "16:9",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 10,
+      "name": "Dog"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 16,
+      "name": "Sandbar"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 2
+    },
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 5
+    }
+  ]
+},
+{
+  "_id": 8,
+  "mediaType": "VIDEO",
+  "title": "Bricks Classic Car Show Flyover",
+  "description": "Video of the Bricks Classic Car Show flyover.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T17:35:09.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Bricks Classic Car Show Flyover-DJI_20250607161031_0356_D-photos_db_sized_video-6.mp4",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Videos Full Resolution Logoless\\\\Bricks Classic Car Show Flyover-DJI_20250607161031_0356_D-photos_db_video-6.mp4"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-06-07T16:10:31.000Z"
+    },
+    "durationSeconds": 57
+  },
+  "location": {
+    "text": "Bricks Classic Car Show Flyover",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "16:9",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 39,
+      "name": "Car"
+    },
+    {
+      "tagId": 40,
+      "name": "Event"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 6
+    }
+  ]
+},
+{
+  "_id": 9,
+  "mediaType": "PHOTO",
+  "title": "Bumble Bee Sampling Lavender",
+  "description": "Picture of a bumble bee on lavender flowers.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Bumble Bee Sampling Lavender_P7132118_photos_db_sized_photo_12.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Bumble Bee Sampling Lavender-P7132118-photos_db_photo-12.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-07-13T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Maple City, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 5,
+      "name": "Insect"
+    },
+    {
+      "tagId": 11,
+      "name": "Flowers"
+    },
+    {
+      "tagId": 12,
+      "name": "Plants"
+    },
+    {
+      "tagId": 13,
+      "name": "Lavender"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 2
+    },
+    {
+      "collectionId": 5,
+      "name": "Flowers & Gardens",
+      "description": "Lavender fields, garden flowers, and detailed closeups.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 2
+    }
+  ]
+},
+{
+  "_id": 10,
+  "mediaType": "PHOTO",
+  "title": "Classic Ford Mustang",
+  "description": "Picture of Bill Short's classic Ford Mustang.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Classic Ford Mustang_P9130783_photos_db_sized_photo_34.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Classic Ford Mustang-P9130783-photos_db_photo-34.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-09-13T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Midland, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 39,
+      "name": "Car"
+    },
+    {
+      "tagId": 40,
+      "name": "Event"
+    }
+  ],
+  "collections": []
+},
+{
+  "_id": 11,
+  "mediaType": "PHOTO",
+  "title": "Closeup Cardinal In Winter",
+  "description": "Closeup of a male cardinal at the bird feeder in winter.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-03-16T11:47:54.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Closeup Cardinal In Winter_P3160548_photos_db_sized_photo_2.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Closeup Cardinal In Winter-P3160548-photos_db_photo-2.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-03-16T11:47:54.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Beulah, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 2500,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 6,
+      "name": "Bird"
+    },
+    {
+      "tagId": 19,
+      "name": "Winter"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 4,
+      "name": "Winter & Ice",
+      "description": "Snowy shorelines, pancake ice, and winter scenes on the lakes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 1
+    },
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 3
+    }
+  ]
+},
+{
+  "_id": 12,
+  "mediaType": "PHOTO",
+  "title": "Closeup of Herron at Arcadia Marsh 2",
+  "description": "Another closeup image of a heron at Arcadia Marsh.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Closeup of Herron at Arcadia Marsh 2_P8300146_photos_db_sized_photo_25.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Closeup of Herron at Arcadia Marsh 2-P8300146-photos_db_photo-25.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-08-30T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Arcadia, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 6,
+      "name": "Bird"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 15,
+      "name": "Marsh"
+    },
+    {
+      "tagId": 27,
+      "name": "Arcadia"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 3
+    },
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 4
+    }
+  ]
+},
+{
+  "_id": 13,
+  "mediaType": "PHOTO",
+  "title": "Closeup of Herron at Arcadia Marsh",
+  "description": "Closeup image of a heron at Arcadia Marsh.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Closeup of Herron at Arcadia Marsh_P8300141_photos_db_sized_photo_24.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Closeup of Herron at Arcadia Marsh-P8300141-photos_db_photo-24.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-08-30T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Arcadia, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 6,
+      "name": "Bird"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 15,
+      "name": "Marsh"
+    },
+    {
+      "tagId": 27,
+      "name": "Arcadia"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 4
+    },
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 5
+    }
+  ]
+},
+{
+  "_id": 14,
+  "mediaType": "PHOTO",
+  "title": "Coleus Flowers",
+  "description": "Picture of Coleus flowers.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Coleus Flowers_P6221910_photos_db_sized_photo_5.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Coleus Flowers-P6221910-photos_db_photo-5.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-06-22T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Beulah, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 11,
+      "name": "Flowers"
+    },
+    {
+      "tagId": 12,
+      "name": "Plants"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 5,
+      "name": "Flowers & Gardens",
+      "description": "Lavender fields, garden flowers, and detailed closeups.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 3
+    }
+  ]
+},
+{
+  "_id": 15,
+  "mediaType": "VIDEO",
+  "title": "Drone Flyover of Buggy Ride June 15th, 2025",
+  "description": "Video of a drone flyover of a buggy ride on June 15th, 2025.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T17:51:55.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Drone Flyover of Buggy Ride June 15th, 2025-DJI_20250615113152_0079_D-photos_db_sized_video-8.mp4",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Videos Full Resolution Logoless\\\\Drone Flyover of Buggy Ride June 15th, 2025-DJI_20250615113152_0079_D-photos_db_video-8.mp4"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-06-15T11:31:52.000Z"
+    },
+    "durationSeconds": 171
+  },
+  "location": {
+    "text": "Drone Flyover of Buggy Ride June 15th, 2025",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "16:9",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 38,
+      "name": "Buggy"
+    },
+    {
+      "tagId": 39,
+      "name": "Car"
+    },
+    {
+      "tagId": 40,
+      "name": "Event"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 7
+    }
+  ]
+},
+{
+  "_id": 16,
+  "mediaType": "PHOTO",
+  "title": "Duck Couple in Winter",
+  "description": "Duck mates in wintertime.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Duck Couple in Winter_P3240589_photos_db_sized_photo_3.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Duck Couple in Winter-P3240589-photos_db_photo-3.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-03-24T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Beulah, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 6,
+      "name": "Bird"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 19,
+      "name": "Winter"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 4,
+      "name": "Winter & Ice",
+      "description": "Snowy shorelines, pancake ice, and winter scenes on the lakes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 2
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 5
+    },
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 6
+    }
+  ]
+},
+{
+  "_id": 17,
+  "mediaType": "PHOTO",
+  "title": "Family of Herrons at Arcadia Marsh",
+  "description": "Picture of a family of herons at Arcadia Marsh.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Family of Herrons at Arcadia Marsh_P7202282_photos_db_sized_photo_17.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Family of Herrons at Arcadia Marsh-P7202282-photos_db_photo-17.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-07-20T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Arcadia, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 6,
+      "name": "Bird"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 15,
+      "name": "Marsh"
+    },
+    {
+      "tagId": 27,
+      "name": "Arcadia"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 6
+    },
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 7
+    }
+  ]
+},
+{
+  "_id": 18,
+  "mediaType": "PHOTO",
+  "title": "Family of Swans on the Lake",
+  "description": "Picture of a family of swans on the lake.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Family of Swans on the Lake_P8102727_photos_db_sized_photo_22.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Family of Swans on the Lake-P8102727-photos_db_photo-22.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-08-10T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Beulah, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 6,
+      "name": "Bird"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 7
+    },
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 8
+    }
+  ]
+},
+{
+  "_id": 19,
+  "mediaType": "PHOTO",
+  "title": "Foggy Morning on the Lake",
+  "description": "Picture of a foggy morning on the lake.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Foggy Morning on the Lake_DJI_20250927081415_0091_D-HDR_photos_db_sized_photo_35.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Foggy Morning on the Lake-DJI_20250927081415_0091_D-HDR-photos_db_photo-35.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-09-27T08:14:15.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Beulah, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 18,
+      "name": "Fog"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 8
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 8
+    }
+  ]
+},
+{
+  "_id": 20,
+  "mediaType": "VIDEO",
+  "title": "Frankfort Light in Winter-DJI 0317",
+  "description": "Video of Frankfort Light in winter.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T17:29:14.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Frankfort Light in Winter-DJI_0317-photos_db_sized_video-4.mp4",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Videos Full Resolution Logoless\\\\Frankfort Light in Winter-DJI_0317-photos_db_video-4.mp4"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-02-01T12:00:00.000Z"
+    },
+    "durationSeconds": 11
+  },
+  "location": {
+    "text": "Frankfort Light in Winter-DJI 0317",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "16:9",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 19,
+      "name": "Winter"
+    },
+    {
+      "tagId": 20,
+      "name": "Ice"
+    },
+    {
+      "tagId": 25,
+      "name": "Frankfort"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    },
+    {
+      "tagId": 36,
+      "name": "Lighthouse"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 3,
+      "name": "Lighthouses & Lake Michigan",
+      "description": "Frankfort Light, Point Betsie, Grand Traverse, and other lighthouse scenes on Lake Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 1
+    },
+    {
+      "collectionId": 4,
+      "name": "Winter & Ice",
+      "description": "Snowy shorelines, pancake ice, and winter scenes on the lakes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 3
+    },
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 9
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 9
+    }
+  ]
+},
+{
+  "_id": 21,
+  "mediaType": "VIDEO",
+  "title": "Frankfort Lighthouse at Sunset",
+  "description": "Video of the Frankfort lighthouse at sunset.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T18:32:39.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Frankfort Lighthouse at Sunset-DJI_20250907202054_0562_D-photos_db_sized_video-14.mp4",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Videos Full Resolution Logoless\\\\Frankfort Lighthouse at Sunset-DJI_20250907202054_0562_D-photos_db_video-14.mp4"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-09-07T20:20:54.000Z"
+    },
+    "durationSeconds": 30
+  },
+  "location": {
+    "text": "Frankfort Lighthouse at Sunset",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "16:9",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 17,
+      "name": "Sunset"
+    },
+    {
+      "tagId": 25,
+      "name": "Frankfort"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    },
+    {
+      "tagId": 36,
+      "name": "Lighthouse"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 3,
+      "name": "Lighthouses & Lake Michigan",
+      "description": "Frankfort Light, Point Betsie, Grand Traverse, and other lighthouse scenes on Lake Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 2
+    },
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 10
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 10
+    }
+  ]
+},
+{
+  "_id": 22,
+  "mediaType": "PHOTO",
+  "title": "Grand Traverse Lighthouse Foghorn Shelter",
+  "description": "Picture of the Grand Traverse Lighthouse foghorn shelter.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Grand Traverse Lighthouse Foghorn Shelter_P9020255_photos_db_sized_photo_31.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Grand Traverse Lighthouse Foghorn Shelter-P9020255-photos_db_photo-31.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-09-02T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Northport, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    },
+    {
+      "tagId": 36,
+      "name": "Lighthouse"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 3,
+      "name": "Lighthouses & Lake Michigan",
+      "description": "Frankfort Light, Point Betsie, Grand Traverse, and other lighthouse scenes on Lake Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 3
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 11
+    }
+  ]
+},
+{
+  "_id": 23,
+  "mediaType": "PHOTO",
+  "title": "Grand Traverse Lighthouse",
+  "description": "Picture of the Grand Traverse Lighthouse.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Grand Traverse Lighthouse_P9020265_photos_db_sized_photo_30.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Holiday Lights on Front Porch-P1021319-photos_db_photo-21.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-09-02T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Holiday Lights on Front Porch",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    },
+    {
+      "tagId": 36,
+      "name": "Lighthouse"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 3,
+      "name": "Lighthouses & Lake Michigan",
+      "description": "Frankfort Light, Point Betsie, Grand Traverse, and other lighthouse scenes on Lake Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 4
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 12
+    }
+  ]
+},
+{
+  "_id": 24,
+  "mediaType": "PHOTO",
+  "title": "Hummingbird at the Feeder",
+  "description": "Picture of a hummingbird at the feeder.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Hummingbird at the Feeder_P8082625_photos_db_sized_photo_21.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\House Mirror Picture-P1021306-photos_db_photo-20.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-08-08T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "House Mirror Picture",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 6,
+      "name": "Bird"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 9
+    }
+  ]
+},
+{
+  "_id": 25,
+  "mediaType": "PHOTO",
+  "title": "Hummingbird Moth on Butterfly Bush Flowers",
+  "description": "Picture of a hummingbird moth on butterfly bush flowers.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Hummingbird Moth on Butterfly Bush Flowers_P7292475_photos_db_sized_photo_20.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Lighthouse Walk-P9010229-photos_db_photo-30.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-07-29T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Lighthouse Walk",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 5,
+      "name": "Insect"
+    },
+    {
+      "tagId": 11,
+      "name": "Flowers"
+    },
+    {
+      "tagId": 12,
+      "name": "Plants"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 5,
+      "name": "Flowers & Gardens",
+      "description": "Lavender fields, garden flowers, and detailed closeups.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 4
+    },
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 10
+    }
+  ]
+},
+{
+  "_id": 26,
+  "mediaType": "PHOTO",
+  "title": "Lilly Flowers",
+  "description": "Picture of lily flowers.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Lilly Flowers_P6221902_photos_db_sized_photo_7.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Lilly Flowers-P6221902-photos_db_photo-7.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-06-22T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Beulah, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 11,
+      "name": "Flowers"
+    },
+    {
+      "tagId": 12,
+      "name": "Plants"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 5,
+      "name": "Flowers & Gardens",
+      "description": "Lavender fields, garden flowers, and detailed closeups.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 5
+    }
+  ]
+},
+{
+  "_id": 27,
+  "mediaType": "PHOTO",
+  "title": "Livesaving Station in Frankfort",
+  "description": "Picture of the lifesaving station in Frankfort.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Livesaving Station in Frankfort_DJI_20250830202221_0049_D-HDR_photos_db_sized_photo_27.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Livesaving Station in Frankfort-DJI_20250830202221_0049_D-HDR-photos_db_photo-27.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-08-30T20:22:21.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Frankfort, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 25,
+      "name": "Frankfort"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 11
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 13
+    }
+  ]
+},
+{
+  "_id": 28,
+  "mediaType": "PHOTO",
+  "title": "Monarch Butterfly on Butterfly Milkweed",
+  "description": "Picture of a monarch butterfly perched on butterfly milkweed.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Monarch Butterfly on Butterfly Milkweed_P8300133_photos_db_sized_photo_26.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Monarch Butterfly on Butterfly Milkweed-P8300133-photos_db_photo-26.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-08-30T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Arcadia, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 5,
+      "name": "Insect"
+    },
+    {
+      "tagId": 11,
+      "name": "Flowers"
+    },
+    {
+      "tagId": 12,
+      "name": "Plants"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 5,
+      "name": "Flowers & Gardens",
+      "description": "Lavender fields, garden flowers, and detailed closeups.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 6
+    },
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 11
+    }
+  ]
+},
+{
+  "_id": 29,
+  "mediaType": "VIDEO",
+  "title": "More Drone Buggy Flyover June 15th, 2025",
+  "description": "Video of a second drone flyover of the buggy ride on June 15th, 2025.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T18:09:31.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\More Drone Buggy Flyover June 15th, 2025-DJI_20250615113533_0080_D-photos_db_sized_video-9.mp4",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Videos Full Resolution Logoless\\\\More Drone Buggy Flyover June 15th, 2025-DJI_20250615113533_0080_D-photos_db_video-9.mp4"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-06-15T11:35:33.000Z"
+    },
+    "durationSeconds": 199
+  },
+  "location": {
+    "text": "More Drone Buggy Flyover June 15th, 2025",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "16:9",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 38,
+      "name": "Buggy"
+    },
+    {
+      "tagId": 39,
+      "name": "Car"
+    },
+    {
+      "tagId": 40,
+      "name": "Event"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 12
+    }
+  ]
+},
+{
+  "_id": 30,
+  "mediaType": "PHOTO",
+  "title": "Moth on Butterfly Milkweed",
+  "description": "Picture of a moth on butterfly milkweed.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Moth on Butterfly Milkweed_P7202231_photos_db_sized_photo_16.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Moth on Butterfly Milkweed-P7202231-photos_db_photo-16.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-07-20T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Arcadia, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 5,
+      "name": "Insect"
+    },
+    {
+      "tagId": 11,
+      "name": "Flowers"
+    },
+    {
+      "tagId": 12,
+      "name": "Plants"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 5,
+      "name": "Flowers & Gardens",
+      "description": "Lavender fields, garden flowers, and detailed closeups.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 7
+    },
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 12
+    }
+  ]
+},
+{
+  "_id": 31,
+  "mediaType": "VIDEO",
+  "title": "Pancake Ice at the Mouth of the Betsie",
+  "description": "Video of pancake ice at the mouth of the Betsie River.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T17:28:41.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Pancake Ice at the Mouth of the Betsie-DJI_20250221140336_0110_D-photos_db_sized_video-2.mp4",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Videos Full Resolution Logoless\\\\Pancake Ice at the Mouth of the Betsie-DJI_20250221140336_0110_D-photos_db_video-2.mp4"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-02-21T14:03:36.000Z"
+    },
+    "durationSeconds": 23
+  },
+  "location": {
+    "text": "Pancake Ice at the Mouth of the Betsie",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "16:9",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 19,
+      "name": "Winter"
+    },
+    {
+      "tagId": 20,
+      "name": "Ice"
+    },
+    {
+      "tagId": 28,
+      "name": "Betsie"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 4,
+      "name": "Winter & Ice",
+      "description": "Snowy shorelines, pancake ice, and winter scenes on the lakes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 4
+    },
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 13
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 14
+    }
+  ]
+},
+{
+  "_id": 32,
+  "mediaType": "PHOTO",
+  "title": "Picture of Rocks on Lake Bed on a Calm Day",
+  "description": "Picture of rocks on the lakebed on a calm day.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Picture of Rocks on Lake Bed on a Calm Day_P9010226_photos_db_sized_photo_29.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Picture of Rocks on Lake Bed on a Calm Day-P9010226-photos_db_photo-29.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-09-01T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Cleveland Township, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 15
+    }
+  ]
+},
+{
+  "_id": 33,
+  "mediaType": "VIDEO",
+  "title": "Point Betsie Lighthouse in Winter-DJI 0356",
+  "description": "Video of Point Betsie Lighthouse in winter.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T17:33:19.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Point Betsie Lighthouse in Winter-DJI_0356-photos_db_sized_video-5.mp4",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Videos Full Resolution Logoless\\\\Point Betsie Lighthouse in Winter-DJI_0356-photos_db_video-5.mp4"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-02-01T12:05:00.000Z"
+    },
+    "durationSeconds": 37
+  },
+  "location": {
+    "text": "Point Betsie Lighthouse in Winter-DJI 0356",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "16:9",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 19,
+      "name": "Winter"
+    },
+    {
+      "tagId": 20,
+      "name": "Ice"
+    },
+    {
+      "tagId": 28,
+      "name": "Betsie"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    },
+    {
+      "tagId": 36,
+      "name": "Lighthouse"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 3,
+      "name": "Lighthouses & Lake Michigan",
+      "description": "Frankfort Light, Point Betsie, Grand Traverse, and other lighthouse scenes on Lake Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 5
+    },
+    {
+      "collectionId": 4,
+      "name": "Winter & Ice",
+      "description": "Snowy shorelines, pancake ice, and winter scenes on the lakes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 5
+    },
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 14
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 16
+    }
+  ]
+},
+{
+  "_id": 34,
+  "mediaType": "VIDEO",
+  "title": "Point Betsie on a Wavy Day",
+  "description": "Video of Point Betsie on a wavy day.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T18:19:16.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Point Betsie on a Wavy Day-DJI_20250905092401_0387_D-photos_db_sized_video-11.mp4",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Videos Full Resolution Logoless\\\\Point Betsie on a Wavy Day-DJI_20250905092401_0387_D-photos_db_video-11.mp4"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-09-05T09:24:01.000Z"
+    },
+    "durationSeconds": 22
+  },
+  "location": {
+    "text": "Point Betsie on a Wavy Day",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "16:9",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 28,
+      "name": "Betsie"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    },
+    {
+      "tagId": 36,
+      "name": "Lighthouse"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 3,
+      "name": "Lighthouses & Lake Michigan",
+      "description": "Frankfort Light, Point Betsie, Grand Traverse, and other lighthouse scenes on Lake Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 6
+    },
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 15
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 17
+    }
+  ]
+},
+{
+  "_id": 35,
+  "mediaType": "PHOTO",
+  "title": "Point Betsie Sunny Day",
+  "description": "Picture of Point Betsie on a sunny day.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Point Betsie Sunny Day_DJI_20250905150029_0444_D-HDR_photos_db_sized_photo_32.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Point Betsie Sunny Day-DJI_20250905150029_0444_D-HDR-photos_db_photo-32.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-09-05T15:00:29.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Frankfort, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 28,
+      "name": "Betsie"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    },
+    {
+      "tagId": 36,
+      "name": "Lighthouse"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 3,
+      "name": "Lighthouses & Lake Michigan",
+      "description": "Frankfort Light, Point Betsie, Grand Traverse, and other lighthouse scenes on Lake Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 7
+    },
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 16
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 18
+    }
+  ]
+},
+{
+  "_id": 36,
+  "mediaType": "VIDEO",
+  "title": "Point Betsie Wavy Day",
+  "description": "Video of Point Betsie during a wavy day.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T18:27:54.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Point Betsie Wavy Day-DJI_20250905145209_0417_D-photos_db_sized_video-13.mp4",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Videos Full Resolution Logoless\\\\Point Betsie Wavy Day-DJI_20250905145209_0417_D-photos_db_video-13.mp4"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-09-05T14:52:09.000Z"
+    },
+    "durationSeconds": 31
+  },
+  "location": {
+    "text": "Point Betsie Wavy Day",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "16:9",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 28,
+      "name": "Betsie"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    },
+    {
+      "tagId": 36,
+      "name": "Lighthouse"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 3,
+      "name": "Lighthouses & Lake Michigan",
+      "description": "Frankfort Light, Point Betsie, Grand Traverse, and other lighthouse scenes on Lake Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 8
+    },
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 17
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 19
+    }
+  ]
+},
+{
+  "_id": 37,
+  "mediaType": "PHOTO",
+  "title": "Pontoon Boat Ride July 27th, 2025",
+  "description": "Picture from a pontoon boat ride on July 27th, 2025.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Pontoon Boat Ride July 27th, 2025_DJI_20250727114503_0239_D-2_photos_db_sized_photo_19.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Pontoon Boat Ride July 27th, 2025-DJI_20250727114503_0239_D-2-photos_db_photo-19.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-07-27T11:45:03.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Beulah, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 37,
+      "name": "Boat"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 18
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 20
+    }
+  ]
+},
+{
+  "_id": 38,
+  "mediaType": "VIDEO",
+  "title": "Pontoon Boat Ride June 14th, 2025",
+  "description": "Video of a pontoon boat ride on June 14th, 2025.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T17:36:55.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Pontoon Boat Ride June 14th, 2025-DJI_20250614154400_0074_D-photos_db_sized_video-7.mp4",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Videos Full Resolution Logoless\\\\Pontoon Boat Ride June 14th, 2025-DJI_20250614154400_0074_D-photos_db_video-7.mp4"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-06-14T15:44:00.000Z"
+    },
+    "durationSeconds": 43
+  },
+  "location": {
+    "text": "Pontoon Boat Ride June 14th, 2025",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "16:9",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 37,
+      "name": "Boat"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 19
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 21
+    }
+  ]
+},
+{
+  "_id": 39,
+  "mediaType": "PHOTO",
+  "title": "Roses in Bloom 2",
+  "description": "Additional picture of roses in bloom.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Roses in Bloom 2_P6221899_photos_db_sized_photo_9.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Roses in Bloom 2-P6221899-photos_db_photo-9.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-06-22T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Beulah, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 11,
+      "name": "Flowers"
+    },
+    {
+      "tagId": 12,
+      "name": "Plants"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 5,
+      "name": "Flowers & Gardens",
+      "description": "Lavender fields, garden flowers, and detailed closeups.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 8
+    }
+  ]
+},
+{
+  "_id": 40,
+  "mediaType": "PHOTO",
+  "title": "Roses In Bloom",
+  "description": "Picture of roses in bloom.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Roses In Bloom_P6221900_photos_db_sized_photo_8.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Roses In Bloom-P6221900-photos_db_photo-8.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-06-22T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Beulah, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 11,
+      "name": "Flowers"
+    },
+    {
+      "tagId": 12,
+      "name": "Plants"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 5,
+      "name": "Flowers & Gardens",
+      "description": "Lavender fields, garden flowers, and detailed closeups.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 9
+    }
+  ]
+},
+{
+  "_id": 41,
+  "mediaType": "PHOTO",
+  "title": "Sailboat in the July 20th, 2025 Sailing Race",
+  "description": "Picture of a sailboat in the July 20th, 2025 sailing race.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Sailboat in the July 20th, 2025 Sailing Race_DJI_20250720192045_0752_D-HDR_photos_db_sized_photo_18.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Sailboat in the July 20th, 2025 Sailing Race-DJI_20250720192045_0752_D-HDR-photos_db_photo-18.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-07-20T19:20:45.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Arcadia, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 25,
+      "name": "Frankfort"
+    },
+    {
+      "tagId": 28,
+      "name": "Betsie"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    },
+    {
+      "tagId": 37,
+      "name": "Boat"
+    },
+    {
+      "tagId": 40,
+      "name": "Event"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 20
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 22
+    }
+  ]
+},
+{
+  "_id": 42,
+  "mediaType": "PHOTO",
+  "title": "Sandhill Crane at Arcadia Marsh",
+  "description": "Picture of a sandhill crane at Arcadia Marsh.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Sandhill Crane at Arcadia Marsh_P7202247_photos_db_sized_photo_14.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Sandhill Crane at Arcadia Marsh-P7202247-photos_db_photo-14.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-07-20T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Arcadia, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 6,
+      "name": "Bird"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 15,
+      "name": "Marsh"
+    },
+    {
+      "tagId": 27,
+      "name": "Arcadia"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 13
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 23
+    }
+  ]
+},
+{
+  "_id": 43,
+  "mediaType": "PHOTO",
+  "title": "Turtle on a Log",
+  "description": "Picture of turtles on a log at Arcadia Marsh.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Turtle on a Log_P7202239_photos_db_sized_photo_15.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Turtle on a Log-P7202239-photos_db_photo-15.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-07-20T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Arcadia, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 7,
+      "name": "Reptile"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 27,
+      "name": "Arcadia"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 14
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 24
+    }
+  ]
+},
+{
+  "_id": 44,
+  "mediaType": "PHOTO",
+  "title": "Two Young Bucks at the Birdfeeder",
+  "description": "Picture of two young bucks at the birdfeeder.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Two Young Bucks at the Birdfeeder_P8162784-3_photos_db_sized_photo_23.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Two Young Bucks at the Birdfeeder-P8162784-3-photos_db_photo-23.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-08-16T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Beulah, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 4,
+      "name": "Wildlife"
+    },
+    {
+      "tagId": 8,
+      "name": "Deer"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 2,
+      "name": "Wildlife & Critters",
+      "description": "Birds, insects, deer, bear, and other wildlife around the lakes and marshes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 15
+    }
+  ]
+},
+{
+  "_id": 45,
+  "mediaType": "VIDEO",
+  "title": "Wavy Morning on the Elberta Side",
+  "description": "Video of wavy morning conditions on the Elberta side.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T18:25:22.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Wavy Morning on the Elberta Side-DJI_20250905141742_0400_D-photos_db_sized_video-12.mp4",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Videos Full Resolution Logoless\\\\Wavy Morning on the Elberta Side-DJI_20250905141742_0400_D-photos_db_video-12.mp4"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-09-05T14:17:42.000Z"
+    },
+    "durationSeconds": 88
+  },
+  "location": {
+    "text": "Wavy Morning on the Elberta Side",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "16:9",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 31,
+      "name": "Elberta"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 21
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 25
+    }
+  ]
+},
+{
+  "_id": 46,
+  "mediaType": "PHOTO",
+  "title": "Wedding at Frankfort Life Saving Station",
+  "description": "Picture of a wedding hosted at the Frankfort Life Saving Station.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Wedding at Frankfort Life Saving Station_DJI_20250830205348_0108_D-2_photos_db_sized_photo_28.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Wedding at Frankfort Life Saving Station-DJI_20250830205348_0108_D-2-photos_db_photo-28.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-08-30T20:53:48.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Frankfort, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 25,
+      "name": "Frankfort"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    },
+    {
+      "tagId": 40,
+      "name": "Event"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 22
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 26
+    }
+  ]
+},
+{
+  "_id": 47,
+  "mediaType": "VIDEO",
+  "title": "Winter Sunset Timelapse in Manistee",
+  "description": "Video of a winter sunset timelapse in Manistee.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-11-28T17:29:10.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Winter Sunset Timelapse in Manistee-dji_fly_20250307_183132_0052_1741396467214_hyperlapse-photos_db_sized_video-3.mp4",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Videos Full Resolution Logoless\\\\Winter Sunset Timelapse in Manistee-dji_fly_20250307_183132_0052_1741396467214_hyperlapse-photos_db_video-3.mp4"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-03-07T18:31:32.000Z"
+    },
+    "durationSeconds": 5
+  },
+  "location": {
+    "text": "Manistee, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "16:9",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 17,
+      "name": "Sunset"
+    },
+    {
+      "tagId": 19,
+      "name": "Winter"
+    },
+    {
+      "tagId": 24,
+      "name": "Timelapse"
+    },
+    {
+      "tagId": 26,
+      "name": "Manistee"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 4,
+      "name": "Winter & Ice",
+      "description": "Snowy shorelines, pancake ice, and winter scenes on the lakes.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 6
+    },
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 23
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 27
+    }
+  ]
+},
+{
+  "_id": 48,
+  "mediaType": "PHOTO",
+  "title": "Yarrow Flowers",
+  "description": "Picture of yarrow flowers.",
+  "isDrone": false,
+  "uploadDateTime": {
+    "$date": "2025-11-28T12:00:00.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\Yarrow Flowers_P6221908_photos_db_sized_photo_6.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\Yarrow Flowers-P6221908-photos_db_photo-6.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-06-22T12:00:00.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Beulah, Michigan, United States",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "OM Digital Solutions OM-5",
+    "lens": null,
+    "filters": null,
+    "iso": 200,
+    "shutterSpeed": 0.001,
+    "aperture": 6.3,
+    "focalLength": 400
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 11,
+      "name": "Flowers"
+    },
+    {
+      "tagId": 12,
+      "name": "Plants"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 5,
+      "name": "Flowers & Gardens",
+      "description": "Lavender fields, garden flowers, and detailed closeups.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 10
+    }
+  ]
+},
+{
+  "_id": 49,
+  "mediaType": "PHOTO",
+  "title": "Untitled DJI Photo in Frankfort",
+  "description": "Photo of a DJI aerial scene in Frankfort.",
+  "isDrone": true,
+  "uploadDateTime": {
+    "$date": "2025-06-19T21:38:32.000Z"
+  },
+  "filePaths": {
+    "display": "C:\\\\Program Files\\\\Ampps\\\\Media Display\\\\_DJI_20250619213832_0258_D_photos_db_sized_photo_4.png",
+    "fullResolutionLogoless": "C:\\\\Program Files\\\\Ampps\\\\Photos Full Resolution Logoless\\\\-DJI_20250619213832_0258_D-photos_db_photo-4.png"
+  },
+  "capture": {
+    "dateTime": {
+      "$date": "2025-06-19T21:38:32.000Z"
+    },
+    "durationSeconds": null
+  },
+  "location": {
+    "text": "Untitled DJI Photo in Frankfort",
+    "latitude": null,
+    "longitude": null
+  },
+  "camera": {
+    "makeModel": "DJI Air 3S",
+    "lens": null,
+    "filters": null,
+    "iso": 140,
+    "shutterSpeed": 0.02,
+    "aperture": 1.8,
+    "focalLength": 9
+  },
+  "aspectRatio": "4:3",
+  "tags": [
+    {
+      "tagId": 1,
+      "name": "Nature"
+    },
+    {
+      "tagId": 2,
+      "name": "Drone"
+    },
+    {
+      "tagId": 3,
+      "name": "Aerial"
+    },
+    {
+      "tagId": 14,
+      "name": "Water"
+    },
+    {
+      "tagId": 25,
+      "name": "Frankfort"
+    },
+    {
+      "tagId": 33,
+      "name": "Michigan"
+    },
+    {
+      "tagId": 34,
+      "name": "United States"
+    },
+    {
+      "tagId": 35,
+      "name": "Lake Michigan"
+    }
+  ],
+  "collections": [
+    {
+      "collectionId": 1,
+      "name": "Drone Aerials",
+      "description": "All aerial photos and videos shot with the DJI Air 3S.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 24
+    },
+    {
+      "collectionId": 6,
+      "name": "Lakes, Rivers & Shoreline",
+      "description": "Lakes, rivers, bays, marshes, and shoreline scenes around Michigan.",
+      "createdDateTime": {
+        "$date": "2025-11-28T12:00:00.000Z"
+      },
+      "isPublished": true,
+      "publishedDateTime": {
+        "$date": "2025-11-28T13:00:00.000Z"
+      },
+      "position": 28
+    }
+  ]
+}]
